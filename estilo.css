@@ -26,6 +26,7 @@ nav{
     color: blueviolet;
     border-bottom: 5px solid plum;
     border-radius: 50px;
+
 }
 nav ul li{
     float: left ;
@@ -111,3 +112,41 @@ h1{
     text-align: center;
     text-decoration: none;
 }
+
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color:rgb(168, 245, 255);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top: 15px;
+    border-bottom: 5px solid plum;
+    text-decoration: none;
+}
+  
+  .animated-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    transition: left 0.3s;
+    z-index: -1;
+  }
+  
+  .animated-button:hover::after {
+    left: 0;
+  }
+  
+  .animated-button:hover {
+
+    background-color: bisque;
+  }  
