@@ -9,15 +9,18 @@ body{
         margin: 0px auto;
 }
 
-header{
+#header{
     text-align: center;
     background-color: rgb(168, 245, 255);
     height: 50px;
     width: 100%;
     margin: 0px;
     color: blueviolet;
-    font-size: 30px;
+    font-size: 100px;
     border-radius: 50px;
+    position: relative;
+    top: 5px;
+    left: 30px;
     
 }
 nav{
@@ -47,7 +50,7 @@ article{
 
 footer{
     background-color:rgb(168, 245, 255);
-    height: 50px;
+    height: 70px;
     color: blueviolet;
     border-bottom: 5px solid plum;
     border-radius: 50px;
@@ -61,13 +64,15 @@ hr{
 
 h1{
     background-color:rgb(168, 245, 255);
-    height: 50px;
+    height: 60px;
     color: blueviolet;
-    border-radius: 50px;
-    font-size: 35px;
-    border-bottom: 5px solid plum;
+    border-radius: 25px;
+    font-size: 28px;
+    border-bottom: 10px solid plum;
     text-align: center;
 }
+
+
 
 .enlace{
     text-decoration: none;
@@ -116,8 +121,8 @@ h1{
 
 .animated-button {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 25px;
+    padding: 5px 10px;
+    font-size: 15px;
     border-radius: 50px;
     background-color:rgb(168, 245, 255);
     color: #000000;
@@ -149,4 +154,4 @@ h1{
   .animated-button:hover {
 
     background-color: bisque;
-  }  
+  }
